@@ -29,7 +29,24 @@ $(function() {
       $(this).toggle({ effect: 'scale', duration: 1000, percent: 130 });
     }, function(){
       $(this).fadeIn(1000);
-      return false;
     })
+
+    $('#riding_icon').hover(function(){
+      $(this).toggle({ effect: 'slide', direction: 'right' });
+    })
+
+    $('.saddle').hover(function(){
+      $(this).children('.pommel_circle').fadeIn('slow', function(){
+        $(this).show();
+      });
+    }, function(){
+      $(this).children('.pommel_circle').fadeOut('slow', function(){
+        $(this).hide();
+      });
+    });
+
+  // $('.saddle').children('.pommel_circle').fadeIn(3000, function(){
+  //     $(this).show();
+  //   });
 
 });

@@ -67,6 +67,18 @@ h3 {
   padding-top: 50px;
 }
 
+.saddle .pommel_circle {
+  display: none;
+  background: #1b4b7e;
+  color: #fff;
+  border-radius: 100%;
+  position: absolute;
+  padding: 8px;
+  top: 3px;
+  right: 340px;
+  z-index: 100;
+}
+
 /* ---------- Letteringjs Kernaling ---------- */
 
 h1.header_title_top .word3 {
