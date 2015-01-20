@@ -14,19 +14,19 @@ $(function() {
     });
 
     $('#grooming_icon1').hover(function(){
-      $(this).toggle({ effect: 'scale', percent: 150 })
+      $(this).toggle({ effect: 'scale', duration: 1000, percent: 130 });
     }, function(){
-      $(this).fadeIn(1000,1)
-    })
+      $(this).fadeIn(1000);
+    });
 
     $('#grooming_icon2').hover(function(){
-      $(this).toggle({ effect: 'scale', percent: 150 })
+      $(this).toggle({ effect: 'scale', duration: 1000, percent: 130 });
     }, function(){
       $(this).fadeIn(1000)
     })
 
     $('#grooming_icon3').hover(function(){
-      $(this).toggle({ effect: 'scale', percent: 150 })
+      $(this).toggle({ effect: 'scale', duration: 1000, percent: 130 });
     }, function(){
       $(this).fadeIn(1000);
       return false;
