@@ -81,25 +81,12 @@ h3 {
 
 /* ---------- Letteringjs Kernaling ---------- */
 
-h1.header_title_top .word3 {
-  text-transform: lowercase;
-  font-style: italic;
-}
-h1.header_title_top .word4 {
-  text-transform: lowercase;
-  /*font-style: italic;*/
-}
-h1.header_title_top .word5 {
-  text-transform: lowercase;
-  font-style: italic;
-}
-
 .header_title_bottom .line1 {
   margin: 0px;
   font-size: 70px;
   line-height: 20px;
   font-family: 'Cookie';
-  letter-spacing: .26em;
+  letter-spacing: .33em;
   text-transform: lowercase;
   /*text-decoration: italic;*/
   /*font-style: italic;*/
